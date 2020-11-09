@@ -63,17 +63,6 @@ CREATE TABLE `payments` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
-CREATE TABLE `transaction` (
-  `transaction_id` int(11) NOT NULL,
-  `transaction_date` date NOT NULL,
-  `transaction_code` varchar(255) NOT NULL,
-  `user_id` int(11) NOT NULL,
-  `exam_id` int(11) NOT NULL,
-  `time_consumed` int(11) NOT NULL,
-  `check_status` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
-
 CREATE TABLE `transaction_dtl` (
   `transaction_dtl_id` int(11) NOT NULL,
   `user_id` int(11) NOT NULL,
@@ -86,6 +75,17 @@ CREATE TABLE `transaction_dtl` (
   `score` int(11) NOT NULL,
   `israted` int(11) NOT NULL,
   `checked_by` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `transaction` (
+  `transaction_id` int(11) NOT NULL,
+  `transaction_date` date NOT NULL,
+  `transaction_code` varchar(255) NOT NULL,
+  `user_id` int(11) NOT NULL,
+  `exam_id` int(11) NOT NULL,
+  `time_consumed` int(11) NOT NULL,
+  `check_status` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
