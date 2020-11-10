@@ -3,7 +3,7 @@ ict first trimester final project
 
 GitHub Repository owned by Alimkhan Akimzhan and Arsen Abdullin from CS-2006 to provide an ICT Final Project.
 
-Form the data takes
+Form the data takes.
 Current system consists of two parts, such as the exam and the checking process.
 The exam:   My client provides his own clients (students) the opportunity to test their level of English. 
 To do that, first of all, he decides to exam the students. Then he appoints the exam on the certain date, 
@@ -20,7 +20,7 @@ What works well what doesn't?
 The current system has its advantages and disadvantages. The process of data collection and storage is quite simple but takes time and efforts to enter the information into the journal. Moreover, there is a chance of making a mistake due to the human factors, such as bad attention or something else, which can lead to serious problems on both sides: company and customer. Automation and digitalization of the system would improve the efficiency of the system and help the learning center to develop and move forward in the future.
 
 
-Nature of the problem
+Nature of the problem.
 The main problem that the system has is it is not automated referring to modern requirement. 
 The system does not support an electronic input and output data. 
 As for solution, we chose to use a database management system to have an opportunity to call any request related to updates of storage. 
@@ -29,9 +29,9 @@ and thanks to a bevy of third-party tools that can be added to the database, set
 a relatively simple task. In addition, it’s also an easy database to work with. So long as you understand the 
 language, you shouldn’t run into too many problems.
 
-Data Structure
+Data Structure.
 In general, desired system will have 10 entities, users with their users’ roles, departments, where they do study, exams with the exam question and exam question-answers, users’ transactions with separate detailed info about them, users’ payment information, advertisements of payments.
-Business Rules
+Business Rules.
 1. User can have one role
 2. User can make one or many payments
 3. User can be related to one department
