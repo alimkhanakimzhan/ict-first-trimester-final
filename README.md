@@ -1,7 +1,7 @@
 # ict-first-trimester-final
 ICT First Trimester`s Final project
 
-GitHub Repository owned by Alimkhan Akimzhan and Arsen Abdullin from CS-2006 to provide an ICT Final Project.
+GitHub Repository created by Alimkhan Akimzhan and Arsen Abdullin from CS-2006 to provide an ICT Final Project.
 
 Form the data takes.
 Current system consists of two parts, such as the exam and the checking process.
