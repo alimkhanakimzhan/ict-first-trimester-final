@@ -1,5 +1,5 @@
 # ict-first-trimester-final
-ict first trimester final project
+ICT First Trimester`s Final project
 
 GitHub Repository owned by Alimkhan Akimzhan and Arsen Abdullin from CS-2006 to provide an ICT Final Project.
 
