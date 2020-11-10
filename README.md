@@ -29,8 +29,6 @@ and thanks to a bevy of third-party tools that can be added to the database, set
 a relatively simple task. In addition, it’s also an easy database to work with. So long as you understand the 
 language, you shouldn’t run into too many problems.
 
-Data Structure.
-In general, desired system will have 10 entities, users with their users’ roles, departments, where they do study, exams with the exam question and exam question-answers, users’ transactions with separate detailed info about them, users’ payment information, advertisements of payments.
 Business Rules.
 1. User can have one role
 2. User can make one or many payments
@@ -46,3 +44,6 @@ Business Rules.
 12. Exam can have one transaction details
 13. Exam question can be related to one transaction details
 14. Exam answer can be related to one transaction details
+
+Data Structure.
+In general, desired system will have 10 entities, users with their users’ roles, departments, where they do study, exams with the exam question and exam question-answers, users’ transactions with separate detailed info about them, users’ payment information, advertisements of payments.
